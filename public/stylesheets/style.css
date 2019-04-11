@@ -1,0 +1,54 @@
+.colors {
+  display: flex;
+  align-items: center;
+}
+
+.colors div {
+  height: 30px;
+  width: 30px;
+  margin-right: 2px;
+}
+
+#colorpicker {
+  background: transparent;
+  border: none;
+}
+
+html,
+body {
+  margin: 0px;
+}
+
+#sketch_board {
+  border: 10px solid gray;
+  height: 70vh;
+  position: relative;
+  margin: 5vh auto 15px;
+  width: 70vw;
+}
+
+#sketch {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#paint {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.options {
+  height: 5vh;
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  margin-top: 5vh;
+}
+
+.slider {
+
+  align-items: center;
+  display: flex;
+}
